@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "dimension": "test_dimensions:aether_test"
+    }
+  }
+}

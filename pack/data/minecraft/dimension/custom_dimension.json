@@ -1,0 +1,149 @@
+{
+      "generator": {
+        "type": "minecraft:noise",
+        "seed": 23456,
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "seed": 234,
+          "biomes": [
+            {
+              "biome": "minecraft:plains",
+              "parameters": {
+                "altitude": 0,
+                "weirdness": 0,
+                "offset": 0,
+                "temperature": 0,
+                "humidity": 0
+              }
+            }
+          ]
+        },
+        "settings": {
+          "bedrock_roof_position": -10,
+          "bedrock_floor_position": -10,
+          "sea_level": 63,
+          "disable_mob_generation": false,
+          "default_block": {
+            "Name": "minecraft:stone",
+            "Properties": {}
+          },
+          "default_fluid": {
+            "Name": "minecraft:water",
+            "Properties": {}
+          },
+          "noise": {
+            "density_factor": 1,
+            "density_offset": -0.46875,
+            "simplex_surface_noise": true,
+            "random_density_offset": true,
+            "island_noise_override": false,
+            "amplified": false,
+            "size_horizontal": 2,
+            "size_vertical": 4,
+            "height": 128,
+            "sampling": {
+              "xz_scale": 1,
+              "y_scale": 1,
+              "xz_factor": 80,
+              "y_factor": 160
+            },
+            "bottom_slide": {
+              "target": -30,
+              "size": 0,
+              "offset": 0
+            },
+            "top_slide": {
+              "target": -10,
+              "size": 3,
+              "offset": 0
+            }
+          },
+          "structures": {
+            "structures": {
+
+              "minecraft:jungle_pyramid": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357619
+              },
+              "minecraft:endcity": {
+                "spacing": 20,
+                "separation": 11,
+                "salt": 10387313
+              },
+              "minecraft:village": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 10387312
+              },
+              "minecraft:ruined_portal": {
+                "spacing": 40,
+                "separation": 15,
+                "salt": 34222645
+              },
+              "minecraft:igloo": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357618
+              },
+              "minecraft:stronghold": {
+                "spacing": 1,
+                "separation": 0,
+                "salt": 0
+              },
+              "minecraft:bastion_remnant": {
+                "spacing": 30,
+                "separation": 4,
+                "salt": 30084232
+              },
+              "minecraft:desert_pyramid": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357617
+              },
+              "minecraft:nether_fossil": {
+                "spacing": 2,
+                "separation": 1,
+                "salt": 14357921
+              },
+              "minecraft:mansion": {
+                "spacing": 80,
+                "separation": 20,
+                "salt": 10387319
+              },
+              "minecraft:shipwreck": {
+                "spacing": 24,
+                "separation": 4,
+                "salt": 165745295
+              },
+              "minecraft:monument": {
+                "spacing": 32,
+                "separation": 5,
+                "salt": 10387313
+              },
+              "minecraft:swamp_hut": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357620
+              },
+              "minecraft:fortress": {
+                "spacing": 30,
+                "separation": 4,
+                "salt": 30084232
+              },
+              "minecraft:pillager_outpost": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 165745296
+              },
+              "minecraft:ocean_ruin": {
+                "spacing": 20,
+                "separation": 8,
+                "salt": 14357621
+              }
+            }
+          }
+        }
+      },
+      "type": "custom:dim2"
+}
