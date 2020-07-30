@@ -7,33 +7,13 @@
           "seed": 0,
           "biomes": [
             {
-              "biome": "minecraft:shattered_savanna_plateau",
-              "parameters": {
-                "altitude": 0.5,
-                "weirdness": 0.5,
-                "offset": 0,
-                "temperature": 0.6,
-                "humidity": 0
-              }
-            },
-            {
               "biome": "minecraft:flower_forest",
               "parameters": {
                 "altitude": 0.5,
-                "weirdness": 0.6,
+                "weirdness": 1,
                 "offset": 0,
-                "temperature": 0.3,
+                "temperature": 0.6,
                 "humidity": 0.1
-              }
-            },
-            {
-              "biome": "minecraft:mushroom_fields",
-              "parameters": {
-                "altitude": 0.1,
-                "weirdness": 0.5,
-                "offset": 0,
-                "temperature": 0.1,
-                "humidity": 0.2
               }
             }
           ]
@@ -44,22 +24,22 @@
           "sea_level": 1,
           "disable_mob_generation": false,
           "default_block": {
-            "Name": "minecraft:pink_wool",
+            "Name": "minecraft:andesite",
             "Properties": {}
           },
           "default_fluid": {
-            "Name": "minecraft:air",
+            "Name": "minecraft:glowstone",
             "Properties": {}
           },
           "noise": {
-            "density_factor": 0,
-            "density_offset": 0,
+            "density_factor": 1,
+            "density_offset": -0.46875,
             "simplex_surface_noise": true,
             "random_density_offset": true,
             "island_noise_override": false,
             "amplified": false,
             "size_horizontal": 1,
-            "size_vertical": 2,
+            "size_vertical": 4,
             "height": 100,
             "sampling": {
               "xz_scale": 1,
